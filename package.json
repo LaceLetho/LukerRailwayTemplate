@@ -1,0 +1,8 @@
+{
+  "name": "luker-railway-template",
+  "private": true,
+  "scripts": {
+    "test": "node test/template.test.js"
+  },
+  "dependencies": {}
+}
