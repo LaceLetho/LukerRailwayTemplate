@@ -5,6 +5,7 @@ ARG LUKER_REPO=https://github.com/LaceLetho/Luker.git
 ARG LUKER_REF=
 
 ENV NODE_ENV=production
+ENV USELESS_PLACETAKER=aabbcc
 
 RUN apk add --no-cache gcompat tini git git-lfs su-exec shadow dos2unix
 
@@ -36,6 +37,5 @@ COPY railway-entrypoint.sh ./railway-entrypoint.sh
 RUN chmod +x ./railway-entrypoint.sh
 
 EXPOSE 8000
-
 
 ENTRYPOINT ["tini", "--", "./railway-entrypoint.sh"]
