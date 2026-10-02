@@ -37,4 +37,5 @@ RUN chmod +x ./railway-entrypoint.sh
 
 EXPOSE 8000
 
+
 ENTRYPOINT ["tini", "--", "./railway-entrypoint.sh"]
