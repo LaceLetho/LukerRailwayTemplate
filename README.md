@@ -2,7 +2,7 @@
 
 [中文](./README.zh-CN.md)
 
-Deploy Luker on Railway with a single Docker-based service. This template builds Luker from `https://github.com/LaceLetho/Luker.git` and adds Railway-specific defaults for public access, persistent storage, and Basic Auth.
+Deploy Luker on Railway with a single Docker-based service. This template builds Luker from `https://github.com/LaceLetho/Luker.git` and adds Railway-specific defaults for public access, persistent storage, and Basic Auth. 
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/templates)
 
